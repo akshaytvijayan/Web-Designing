@@ -1,0 +1,37 @@
+body {
+   background-image: url("css.png");
+   background-repeat: no-repeat;
+   background-size: 100px 80px;
+   }
+h1{
+      
+    text-align:center;
+    font-family:courier;
+    }
+h2{
+   color:orange;
+   text-align:center;
+   font-family:Courier New;
+  }
+h3{
+  color:darkorange;
+  font-family:courier new;
+  }
+.b{
+      color:purple;
+    font-family:Lucida Handwriting;
+    }
+.c{
+      color:lightgreen;
+    font-family:Times New Roman;
+    }
+.d{
+      color:red;
+    font-family:Lucida Console;
+    }
+
+.e{
+      color:red;
+     text-align:center;
+    font-family:Papyrus;
+    }
