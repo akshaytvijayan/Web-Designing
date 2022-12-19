@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Factorial</title>
+</head>
+<body bgcolor="White">
+<h1><font color="green">Factorial of a number</h1></font>
+<script>
+document.write("5.Write a Java Script code to find the factorial of a number?")
+function factorial(n){
+  var n=parseInt(prompt("Enter the Number:"));
+  var answer = 1;
+  if (n == 0 || n == 1){
+    return answer;
+  }else{
+    for(var i = n; i >= 1; i--){
+      answer = answer * i;
+    }
+    document.write("Factorial of " +n+ " is = "+answer);
+  }
+   
+}
+</script>
+<form>
+<input type="button" onclick="factorial()" value="Click Here"/>
+</form>
+</body>
+
+</html>
