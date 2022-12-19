@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prime interval</title>
+</head>
+<body bgcolor="White">
+<h1><font color="green">Prime numbers within an interval</h1></font>
+
+<script>
+document.write("click on the button to get prime nubers between an interval ?")
+function prime()
+{
+let beg=prompt("Enter The Begining Range :");
+let end=prompt("Enter The End Limit :");
+document.write("Prime Numbers between the Begining to End are :"+"<br/>")
+for (i =beg;i <=end;i++) {
+     c=0;
+    for ( j = 2; j < i; j++) {
+        if (i % j == 0) {
+            c = 1;
+            break;
+        }
+    }
+ 
+    if (i > 1 && c==0) {
+       document.write(i+"<br>");
+    }
+}
+}
+</script>
+<form>
+<input type="button" value="Click Here" onclick="prime()">
+</form>
+</body>
+</html>
