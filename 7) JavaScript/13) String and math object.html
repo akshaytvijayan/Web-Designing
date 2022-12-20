@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><title>String and math object</title>
+</head>
+<body bgcolor="lightgrey">
+<h1><font color="green">String and Math Object</h1></font>
+
+<script>
+document.write("1. Create a HTML page to explain the use of various predefined functions in a string and math object in javascript.<br><br>")
+document.write("<u><fieldset><center><h2>String Function</u></h2></center>")
+var a="Hello,Welcome to Ooty!";
+var b="Nice to Meet You.";
+
+document.write("<b>Length of the string=",a.length,"<br><br>");
+document.write("Substring using the given string=",a.slice(13,20),"<br><br>");
+document.write("Substring using subtr=",a.substr(15,20),"<br><br>");
+document.write("Concatenation=",a.concat(" ",b,"<br><br>"));
+document.write("Replace=",a.replace("ooty!","Kerala"),"<br><br>");
+document.write("Uppercase=",a.toUpperCase(),"<br><br>");
+document.write("Lowercase=",a.toLowerCase(),"<br><br>");
+document.write("Index of Welcome:",a.indexOf("welcome"));
+document.write("Last index of Ooty!",a.lastIndexOf("ooty!"),"<br><br>");
+document.write("Character at positon 13=",a.charAt(4),"<br></b></fieldset>");
+
+document.write("<fieldset><u><h2><center>Math Function</u></h2></center><br>")
+var x=426.9;
+document.write("<b>Square root of "+x+"= "+Math.sqrt(x));
+document.write("<br><br>");
+document.write("Cube of "+x+"= "+Math.pow(x,3));
+document.write("<br><br>");
+document.write("Absolute Value of "+x+"= "+Math.abs(x));
+document.write("<br><br>");
+document.write("Round "+x+"= "+Math.round(x));
+document.write("<br><br>");
+document.write("Ceil value of "+x+"= "+Math.ceil(x));
+document.write("<br><br>");
+document.write("Floor value of "+x+"= "+Math.floor(x));
+document.write("<br><br>");
+document.write("Value of PI= " +Math.PI);
+document.write("<br><br>");
+document.write("Max value of 10,34,87= " +Math.max(10,34,87));
+document.write("<br><br>");
+document.write("Min value of 10,34,87= " +Math.min(10,34,87));
+document.write("</fieldset>");
+</script>
+</body>
+</html>
