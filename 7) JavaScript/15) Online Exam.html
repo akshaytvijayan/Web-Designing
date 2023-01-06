@@ -1,0 +1,101 @@
+<html>
+<head><title>Online Exam</title>
+</head>
+<body  bgcolor="lightgrey">
+<fieldset>
+<legend><h2><b><u><center><font color="BLUE">ONLINE EXAMINATION 2023-24 :</font></b></u></center></h2></legend>
+<h1><center>Multi-Tasking Online Examination 2023-24</center></h1>
+<center><form name="exm"></center>
+<h2><center>Enter Register Number:<input type="text" name="reg" id="reg" ></center></h2>
+<h2><center>Enter Your Name:<input type="text" name="name" id="name" ></center></h2>
+
+<h2>Q1. Father of ‘C’ programming language?</h2>
+<h4><input type="radio" name="q1" value="q1a" id="q1">a) Dennis Ritchie</h4>
+<h4><input type="radio" name="q1" value="q1b" id="q1">b) Prof Jhon Kemeny </h4>
+<h4><input type="radio" name="q1" value="q1c" id="q1">c) Thomas Kurtz </h4>
+<h4><input type="radio" name="q1" value="q1d" id="q1">d) Bill Gates </h4>
+<br> 
+
+<h2>Q2. COBOL is widely used in applications?</h2>
+<h3><input type="radio" name="q2" value="q2a" id="q2">a) Commercial </h3>
+<h3><input type="radio" name="q2" value="q2b" id="q2">b) Scientific </h3>
+<h3><input type="radio" name="q2" value="q2c" id="q2">c) Mathematical </h3>
+<h3><input type="radio" name="q2" value="q2d" id="q2">d) None</h3>
+<br>
+
+<h2>Q3. The device used to carry digital data on analog lines is called as?</h2>
+<h4><input type="radio" name="q3" value="q3a" id="q3">a) Modem</h4>
+<h4><input type="radio" name="q3" value="q3b" id="q3">b) Modulator</h4>
+<h4><input type="radio" name="q3" value="q3c" id="q3">c) Demodulator</h4>
+<h4><input type="radio" name="q3" value="q3d" id="q3">d) Multiplexer</h4>
+<br>
+
+<h2>Q4.Who is the father of Computer science?</h2>
+<h4><input type="radio" name="q4" value="q4a" id="q4">a) Charles Babbage</h4>
+<h4><input type="radio" name="q4" value="q4b" id="q4">b) Alen Turing</h4>
+<h4><input type="radio" name="q4" value="q4c" id="q4">c) Dennis Richie</h4>
+<h4><input type="radio" name="q4" value="q4d" id="q4">d) James Gosling</h4>
+<br>
+
+<h2>Q5. SMPS stands for?</h2>
+<h3><input type="radio" name="q5" value="q5a" id="q5">a) Switched mode power supply </h3>
+<h3><input type="radio" name="q5" value="q5b" id="q5">b) Start mode power supply </h3>
+<h3><input type="radio" name="q5" value="q5c" id="q5">c) Store mode power supply </h3>
+<h3><input type="radio" name="q5" value="q5d" id="q5">d) Single mode power supply </h3>
+<br>
+ </fieldset>
+
+<form>
+<BR>
+<input type="reset" VALUE="RESET"></INPUT>
+<input type="button" onclick="marks();" VALUE="SUBMIT"></INPUT>
+</form>
+<script type="text/javascript">
+
+function myFunction() {
+  alert("The form was submitted");
+}
+
+function marks()
+{
+var a=document.exm.q1.value;
+var b=document.exm.q2.value;
+var c=document.exm.q3.value;
+var d=document.exm.q4.value;
+var e=document.exm.q5.value;
+var f=document.getElementById("reg").value;
+var g=document.getElementById("name").value;
+
+
+
+var m=0;
+
+if(a=="q1a")
+{
+m=m+1;
+}
+if(b=="q2d")
+{
+m=m+1;
+}
+if(c=="q3a")
+{
+m=m+1;
+}
+if(d=="q4a")
+{
+m=m+1;
+}
+if(e=="q5a")
+{
+m=m+1;
+}
+alert("Your Name : "+g+" \n Your Register Number : "+f+" \n You have got "+m+" marks ");
+
+}
+</script>
+
+</body>
+</html>
+
+
