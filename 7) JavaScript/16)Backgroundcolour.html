@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Back-Ground Colour</title>
+</head>
+<body>
+<h2>Create a HTML page to change the background color for every click of a button using JavaScript Event Handling.</h2>
+<center><button type="button" onclick="bgchange();">Click Here</button></center>
+<script type="text/javascript">
+var clr=["red","blue","yellow","green","orange","brown","cyan","black","blue","viloet","grey","purple"];
+var l=clr.length;
+var i=0;
+function bgchange()
+{
+while(i<l)
+{
+document.getElementsByTagName("body")[0].style.backgroundColor=clr[i];
+i=i+1;
+return;
+}
+ 
+}
+</script>
+</body>
+</html>
